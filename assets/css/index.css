@@ -6,13 +6,19 @@
 nav h1 {
   background-color: #4aaaa5;
   display: inline-block;
-  padding: 10px;
-  margin-left: 10px;
+  padding: 20px;
+  margin-left: 20px;
   color: white;
 }
 
 .about {
   border-right: solid 1px #777777;
+  padding-right: 10px;
+}
+
+.contact {
+  border-right: solid 1px #777777;
+  padding-right: 10px;
 }
 
 .navigation {
@@ -22,13 +28,13 @@ nav h1 {
 
 nav ul {
   margin-right: 10%;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 nav li {
   list-style-type: none;
   display: inline-block;
-  margin-left: 15px;
+  margin-left: 5px;
   color: #777777;
 }
 
@@ -63,5 +69,6 @@ footer {
   background-color: #666666;
   color: white;
   border-top: 10px solid #4aaaa5;
-  padding: 25px;
+  padding: 25px 0 10px 0;
+  font-size: .85em;
 }
