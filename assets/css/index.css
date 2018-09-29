@@ -11,12 +11,12 @@ nav h1 {
   color: white;
 }
 
-.about {
-  border-right: solid 1px #777777;
-  padding-right: 10px;
+nav li a {
+  text-decoration: none;
+  color: #777777;
 }
 
-.contact {
+.sep {
   border-right: solid 1px #777777;
   padding-right: 10px;
 }
