@@ -1,54 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>About</title>
+  <meta charset="UTF-8">
+  <title>About 2</title>
   <link rel="stylesheet" href="assets/css/index.css">
 </head>
 
 <body>
 
-  <!-- h1 + navigation bar that will hold the 3 clickable links -->
   <nav>
-    <div class="header">
-    <ul>
-      <li><h1>Chris McLaughlin</h1></li>
-      <div class="navigation">
-      <li class="sep"><a href"#">About     |</a></li>
-      <li class="sep"><a href="contact.html">Contact     |     </a></li>
-      <li class="portfolio"><a href="portfolio.html">Portfolio</a></li>
-    </div>
-    </ul>
+    <div class='menu-container'>
+      <div class='logo'>
+        <h1>Chris McLaughlin</h1>
+      </div>
+      <div class='menu'>
+        <div class='about'><a href='#'>About</a></div>
+        <div class='contact'><a href='contact.html' target='_blank'>Contact</a></div>
+        <div class='portfolio'><a href='portfolio.html' target='_blank'>Portfolio</a></div>
+      </div>
     </div>
   </nav>
-  <hr size="30px">
 
-  <!-- main will hold the white square and all the content besides the background and the navbar -->
-  <div class="main">
-    <!-- h2 that says About Me -->
-    <section>
-      <h2>About Me</h2>
-    </section>
-<hr class="hr">
+  <main>
+    <h1>About</h1>
+    <hr>
 
-    <!-- line that breaks from the h2 element to the image + content section -->
-    <section>
-    <div class="img">
-      <img src="/Users/chrismclaughlin/Desktop/class/homework/Basic-Portfolio/assets/images/CM_small.jpg" alt="Chris McLaughlin" width="200px">
+    <!-- needed to make a div so that the float left on the img worked correctly with the p -->
+    <div class='about-section'>
+      <img src="assets/images/CM_small.jpg" alt="Chris McLaughlin" width='200px' height='200px'>
+      <p>My name is Chris and I am a Christian, husband, father, and pastor. I also work full time for Apple. I am now adding developer to the list. I decided to start learning to code a few months back at the recommendation of a friend from work. He had just begun this program and suggested I check out some online courses to see what I thought of it. </p>
+      <p id='p2'>I started learning HTML, CSS, and Javascript. I really enjoyed the challenge and sense of success when things worked. As the months went by I found myself really loving the learning process. My wife and I began to discuss the possibility of a career change. I was learning more about web development as well as the wonderful job market that exists for developers. I decided that when the next boot camp opened up I would apply and here I am today. I look forward to refining what I already know as well as building on my current skills, specifically with Javascript and back end development.</p>
     </div>
 
-    <div>
-      <p>Lorem ipsum dolor amet selfies chartreuse hashtag farm-to-table four dollar toast lumbersexual ennui listicle chillwave poutine food truck photo booth enamel pin. Tofu fingerstache direct trade, mixtape farm-to-table 3 wolf moon asymmetrical 90's man braid food truck tacos. Williamsburg offal chambray retro, gastropub authentic irony hammock 90's. Locavore iceland pork belly tattooed, austin activated charcoal la croix swag selfies crucifix pug tumblr enamel pin +1 tacos.</p>
-    <br>
-      <p>Franzen pok pok glossier aesthetic tousled readymade four dollar toast, keffiyeh everyday carry tbh keytar drinking vinegar poke master cleanse normcore. Activated charcoal four dollar toast unicorn, mixtape cliche blue bottle shoreditch cardigan yr vexillologist asymmetrical squid farm-to-table offal. Aesthetic synth kombucha wayfarers neutra blue bottle kickstarter letterpress.</p>
-    </div>
-    
-    </section>
-
-  </div>
+  </main>
 
   <footer>Copyright ©</footer>
-
 
 </body>
 
